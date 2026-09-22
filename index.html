@@ -192,7 +192,7 @@
     <p class="eyebrow">Eva Studios &middot; Android</p>
     <h1>Driving Simulator Kerala Privacy Policy</h1>
     <p class="dates">
-      <span>Effective 20 September 2026</span>
+      <span>Effective 22 September 2026</span>
       <span>Applies to com.evastudios.vehiclesimulator</span>
     </p>
   </header>
@@ -204,7 +204,8 @@
       <li>The app requests <strong>no location, camera, microphone, contacts or photo permissions</strong>.</li>
       <li>We collect <strong>anonymous usage statistics</strong> through Google Firebase Analytics to see which features people actually use.</li>
       <li><strong>Multiplayer is optional.</strong> It is the only part of the app that identifies you to anyone else, and only by a display name you choose.</li>
-      <li>We <strong>do not sell your data</strong>, and the app currently shows <strong>no advertisements</strong>.</li>
+      <li>The game shows <strong>advertisements through Google AdMob</strong>, which uses your device's advertising ID.</li>
+      <li>We <strong>do not sell your data</strong>.</li>
     </ul>
   </div>
 
@@ -257,6 +258,19 @@
   <h3>Connecting players</h3>
   <p>Players connect to one another directly. To make that connection, Epic&rsquo;s service handles the network addresses of the participants, as any online game must. We do not store those addresses. Epic&rsquo;s handling is described in the <a href="https://www.epicgames.com/site/en-US/privacypolicy" target="_blank" rel="noopener">Epic Games Privacy Policy</a>.</p>
 
+  <h2>Advertising</h2>
+  <p>The game shows ads supplied by <strong>Google AdMob</strong>. Two kinds appear:</p>
+  <ul>
+    <li><strong>Interstitials</strong> &mdash; a full-screen ad at certain points, such as starting or restarting a drive, or refuelling.</li>
+    <li><strong>Rewarded ads</strong> &mdash; optional. You choose to watch one in exchange for something in the game, currently an emergency refuel. Nothing is taken from you if you skip or close it.</li>
+  </ul>
+
+  <p>To select and measure ads, Google uses your device's <strong>advertising ID</strong>, a resettable identifier Android provides for this purpose, together with technical details such as your device type, operating system, coarse location derived from your IP address, and whether you interacted with an ad. We do not receive your advertising ID; it goes to Google, and we only see aggregate reports such as how many ads were shown.</p>
+
+  <p>Because the advertising SDK is present, the app declares these permissions in addition to the ones listed further down: <code>com.google.android.gms.permission.AD_ID</code>, the Android Privacy Sandbox permissions <code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code> and <code>ACCESS_ADSERVICES_TOPICS</code>, and the Play install referrer service. These are declared by Google's advertising library, not by us.</p>
+
+  <p><strong>You can limit this.</strong> Android lets you reset your advertising ID, or delete it entirely, under <em>Settings &rarr; Privacy &rarr; Ads</em> (the exact path varies by manufacturer). Deleting it stops apps receiving a stable identifier for advertising. Google's own description of how it handles advertising data is in the <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google Privacy &amp; Terms page for partner sites and apps</a>.</p>
+
   <h2>Kept only on your device</h2>
   <p>Your display name, settings and game progress are saved in the app&rsquo;s own storage on your phone. They are not uploaded to us. Uninstalling the app deletes them.</p>
 
@@ -266,15 +280,15 @@
     <li>We do not access your camera, microphone, contacts, photos or files.</li>
     <li>We do not collect your name, email address, phone number or payment details.</li>
     <li>We do not sell or rent information to anyone.</li>
-    <li>The app currently contains no advertising and no advertising SDK, so no advertising identifier is collected.</li>
+    <li>We never receive your advertising ID ourselves, only aggregate ad reports from Google.</li>
   </ul>
-  <p>The permissions the app declares are limited to what a networked game needs: internet and network state, keeping the screen awake, vibration, audio settings, and notifications.</p>
+  <p>Beyond the advertising permissions listed above, the permissions the app declares are limited to what a networked game needs: internet and network state, keeping the screen awake, vibration, audio settings, and notifications.</p>
 
   <h2>Children</h2>
   <p>The game is not directed at children under 13, and we do not knowingly collect information from them. If you believe a child has provided information through the multiplayer display name, contact us at <a href="mailto:afeef.nasim@gmail.com">afeef.nasim@gmail.com</a> and we will remove it.</p>
 
   <h2>How long information is kept</h2>
-  <p>Analytics records are retained by Google under the retention setting on our Firebase project and are deleted automatically when that period elapses. Multiplayer sessions exist only while they are being played; once a session ends, its listing and its display names are gone.</p>
+  <p>Ad-serving data is held by Google under its own retention rules; we have no copy of it. Analytics records are retained by Google under the retention setting on our Firebase project and are deleted automatically when that period elapses. Multiplayer sessions exist only while they are being played; once a session ends, its listing and its display names are gone.</p>
 
   <h2>Your choices</h2>
   <ul>
@@ -292,7 +306,7 @@
 
   <footer>
     <p><strong>Driving Simulator Kerala</strong> &mdash; Nasim Afeef K J</p>
-    <p>Last updated 20 September 2026.</p>
+    <p>Last updated 22 September 2026.</p>
   </footer>
 
 </div>
